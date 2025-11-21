@@ -37,9 +37,10 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.4 }}
       >
-        Saya Najwan, mahasiswa <b>Software Engineering</b>. Spesialis Frontend
-        dengan keahlian integrasi <b>Machine Learning</b> dan pipeline{" "}
-        <b>DevOps</b> yang solid.
+        I'm Najwan, a Software Engineering student passionate about building
+        seamless Frontend experiences, integrating Machine Learning systems, and
+        developing reliable DevOps pipelines. I turn complex problems into
+        elegant, scalable solutions
       </motion.p>
 
       <motion.div
@@ -55,13 +56,15 @@ export default function Hero() {
 
         <div className="flex gap-4 ml-4">
           <a
-            href="#"
+            href="https://github.com/najwanmuhammad"
+            target="_blank"
             className="p-3 rounded-full border border-white/10 hover:bg-white/10 transition-colors"
           >
             <Github className="w-5 h-5" />
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/muhammadnajwanf"
+            target="_blank"
             className="p-3 rounded-full border border-white/10 hover:bg-white/10 transition-colors"
           >
             <Linkedin className="w-5 h-5" />

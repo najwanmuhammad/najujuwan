@@ -11,7 +11,7 @@ export default function About() {
         <div className="mb-16 text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">My Journey</h2>
           <p className="text-neutral-400">
-            Dari baris kode pertama hingga arsitektur sistem.
+            From my first lines of code to designing full system architectures.
           </p>
         </div>
 

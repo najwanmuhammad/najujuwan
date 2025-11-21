@@ -13,8 +13,9 @@ export default function Contact() {
             <span className="text-primary">together.</span>
           </h2>
           <p className="text-neutral-400 text-lg">
-            Sedang mencari tempat magang untuk posisi Frontend Developer atau
-            Software Engineer. Siap bergabung bulan depan!
+            I'm currently seeking an internship opportunity as a Software
+            Engineer. Ready to join your team as soon as next month. Open to
+            both remote and on-site roles.
           </p>
 
           <div className="space-y-4 text-neutral-300">
@@ -22,7 +23,11 @@ export default function Contact() {
               <div className="p-3 bg-white/5 rounded-full text-primary">
                 <Mail className="w-5 h-5" />
               </div>
-              <span>muhammad.najwanzf@gmail.com</span>
+              <span>
+                <a href="mailto:muhammad.najwanzf@gmail.com">
+                  muhammad.najwanzf@gmail.com
+                </a>
+              </span>
             </div>
             <div className="flex items-center gap-4">
               <div className="p-3 bg-white/5 rounded-full text-primary">
@@ -39,7 +44,7 @@ export default function Contact() {
             <label className="text-sm font-medium text-neutral-400">Name</label>
             <input
               type="text"
-              placeholder="John Doe"
+              placeholder="Elon Musk"
               className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-neutral-600 focus:outline-none focus:border-primary transition-colors"
             />
           </div>
@@ -50,7 +55,7 @@ export default function Contact() {
             </label>
             <input
               type="email"
-              placeholder="john@company.com"
+              placeholder="company@company.com"
               className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-neutral-600 focus:outline-none focus:border-primary transition-colors"
             />
           </div>
@@ -61,7 +66,7 @@ export default function Contact() {
             </label>
             <textarea
               rows={4}
-              placeholder="Hi Fahmi, we'd like to interview you..."
+              placeholder="Hi Najwan, we'd like to interview you..."
               className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-neutral-600 focus:outline-none focus:border-primary transition-colors resize-none"
             />
           </div>

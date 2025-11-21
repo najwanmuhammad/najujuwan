@@ -7,7 +7,7 @@ export default function FeaturedProjects() {
       <div className="mb-12 space-y-2">
         <h2 className="text-3xl md:text-5xl font-bold">Selected Works</h2>
         <p className="text-neutral-400">
-          Kombinasi antara estetika Frontend dan logika Backend.
+          Blending interface elegance with the logic that drives it.
         </p>
       </div>
 
