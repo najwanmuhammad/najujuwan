@@ -15,7 +15,6 @@ export default function Home() {
       <FeaturedProjects />
       <About />
       <Contact />
-      {/* selanjutnya */}
       <Footer />
     </main>
   );
