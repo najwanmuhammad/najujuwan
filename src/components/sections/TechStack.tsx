@@ -19,7 +19,7 @@ export default function TechStack() {
   ];
 
   return (
-    <section className="py-10 border-y border-white/5 bg-white/[0.02] overflow-hidden">
+    <section className="py-10 border-y border-white/5 bg-white/2 overflow-hidden">
       <div className="flex w-full">
         {/* Kita duplikasi list 2x untuk efek infinite loop yang seamless */}
         <div className="flex animate-scroll whitespace-nowrap">
