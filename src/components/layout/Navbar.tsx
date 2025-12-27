@@ -62,10 +62,6 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
-
-          <button className="bg-white text-black px-4 py-1.5 rounded-full text-sm font-semibold hover:bg-neutral-200 transition-colors">
-            Let&apos;s Talk
-          </button>
         </div>
       </motion.nav>
 

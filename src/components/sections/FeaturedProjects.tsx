@@ -12,7 +12,7 @@ export default function FeaturedProjects() {
       </div>
 
       {/* BENTO GRID LAYOUT */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[350px] md:auto-rows-[450px]">
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}

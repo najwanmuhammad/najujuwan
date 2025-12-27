@@ -1,34 +1,42 @@
 export const experiences = [
   {
-    year: "2026 (Goal)",
-    title: "Software Engineer Intern",
-    company: "Top Tech Company",
+    year: "Aug 2025 - Present",
+    title: "Frontend & AI Engineer",
+    company: "PT Parama Data Unit",
     description:
-      "Siap mengimplementasikan skill Frontend & DevOps dalam lingkungan profesional skala besar.",
-    active: true, // Highlight this as the next step
+      "Mengembangkan sistem Computer Vision end-to-end untuk deteksi batuan otomatis menggunakan YOLOv11 dan menghubungkannya dengan dashboard interaktif berbasis Next.js.",
+    active: true,
   },
   {
-    year: "2025",
-    title: "Frontend & AI Integration",
-    company: "University Project",
+    year: "Dec 2024 - Present",
+    title: "Programmer Staff",
+    company: "GAMANTARAY UGM",
     description:
-      "Membangun aplikasi web dengan Next.js 15 yang terintegrasi dengan model Machine Learning Python.",
+      "Mengembangkan model deteksi objek YOLOv8 untuk navigasi kapal otonom dan logika kontrol servo berbasis data visual.",
+    active: true,
+  },
+  {
+    year: "Feb 2025 - Jun 2025",
+    title: "Data Structures Lab Assistant",
+    company: "Sekolah Vokasi UGM",
+    description:
+      "Membimbing 24 mahasiswa dalam algoritma kompleks (Sorting, Trees, Linked Lists) menggunakan Python dan membuat soal pemrograman kompetitif.",
     active: false,
   },
   {
-    year: "2024",
-    title: "DevOps Study Group Lead",
-    company: "Campus Community",
+    year: "Dec 2024 - Jun 2025",
+    title: "Member Hacker - Frontend Engineer",
+    company: "GDGOC UGM",
     description:
-      "Belajar dan mengajarkan dasar-dasar CI/CD, Docker, dan Cloud Computing kepada rekan mahasiswa.",
+      "Mengembangkan 'Donora', aplikasi mobile berbasis Flutter yang masuk Top 50 Google Solution Challenge APAC 2025, serta mengikuti pelatihan intensif Modern Frontend.",
     active: false,
   },
   {
-    year: "2023",
-    title: "Software Engineering Student",
-    company: "University",
+    year: "Aug 2024 - Nov 2024",
+    title: "IT Lab Assistant",
+    company: "Sekolah Vokasi UGM",
     description:
-      "Memulai perjalanan di jurusan Software Engineering Technology. Fokus pada algoritma dasar.",
+      "Mementori 26 mahasiswa dalam fundamental IT, virtualisasi, dan migrasi OS, serta mengembangkan asesmen akademik.",
     active: false,
   },
 ];
