@@ -38,7 +38,7 @@ export default function Hero() {
       </motion.div>
 
       {/* 2. Main Headline dengan Dynamic Text */}
-      <div className="relative z-10 font-bold tracking-tighter text-5xl md:text-7xl lg:text-8xl mb-6">
+      <div className="relative z-10 font-bold tracking-tighter text-4xl md:text-7xl lg:text-8xl mb-6">
         <motion.span
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -49,15 +49,15 @@ export default function Hero() {
         </motion.span>
 
         {/* Container untuk teks berganti */}
-        <div className="h-32 overflow-hidden flex justify-center items-center">
+        <div className="h-[1.3em] overflow-hidden flex justify-center items-center">
           <AnimatePresence mode="wait">
             <motion.span
               key={index}
-              initial={{ y: 40, opacity: 0 }}
+              initial={{ y: "100%", opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              exit={{ y: -40, opacity: 0 }}
+              exit={{ y: "-100%", opacity: 0 }}
               transition={{ duration: 0.5, ease: "circOut" }}
-              className="transform-gpu inline-block leading-[5] bg-clip-text text-transparent bg-linear-to-r from-primary to-blue-400"
+              className="inline-block whitespace-nowrap px-2 pb-2 leading-tight bg-clip-text text-transparent bg-linear-to-r from-primary to-blue-400"
             >
               {roles[index]}
             </motion.span>
