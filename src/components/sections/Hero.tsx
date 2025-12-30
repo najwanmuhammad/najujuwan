@@ -67,7 +67,7 @@ export default function Hero() {
 
       {/* 3. Short & Punchy Subtext */}
       <motion.p
-        className="text-neutral-400 max-w-xl text-lg md:text-xl leading-relaxed mb-10"
+        className="text-neutral-400 max-w-xl text-lg md:text-xl leading-relaxed mb-10 font-mono"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}

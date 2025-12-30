@@ -12,7 +12,7 @@ export default function TechStack() {
 
       <div className="container mx-auto px-4 mb-20 text-center relative z-10">
         <h2 className="text-3xl md:text-5xl font-bold mb-6">My Tech Stack</h2>
-        <p className="text-neutral-400 max-w-2xl mx-auto">
+        <p className="text-neutral-400 max-w-2xl mx-auto font-mono">
           Technologies I work with.
         </p>
       </div>

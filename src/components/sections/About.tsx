@@ -10,7 +10,7 @@ export default function About() {
       <div className="max-w-4xl mx-auto px-4">
         <div className="mb-16 text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">My Journey</h2>
-          <p className="text-neutral-400">
+          <p className="text-neutral-400 font-mono">
             From my first lines of code to designing full system architectures.
           </p>
         </div>

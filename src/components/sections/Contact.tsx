@@ -12,7 +12,7 @@ export default function Contact() {
             Let's work <br />
             <span className="text-primary">together.</span>
           </h2>
-          <p className="text-neutral-400 text-lg">
+          <p className="text-neutral-400 text-lg font-mono">
             I'm currently seeking an internship opportunity as a Software
             Engineer. Ready to join your team as soon as next month. Open to
             both remote and on-site roles.

@@ -1,24 +1,37 @@
 @import "tailwindcss";
 
-/* Custom Theme Configuration langsung di CSS (Fitur v4) */
 @theme {
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui;
-  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular;
+  --font-sans: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
 
   /* Color Palette: Dark Modern */
   --color-background: #0a0a0a;
   --color-foreground: #ededed;
 
   --color-primary: #3b82f6; /* Blue 500 */
-  --color-accent: #10b981;  /* Emerald 500 */
+  --color-accent: #10b981; /* Emerald 500 */
   --color-surface: #171717; /* Neutral 900 */
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E");
+  opacity: 0.03; /* Sangat tipis */
+  mix-blend-mode: overlay;
 }
 
 /* Base Styles */
 body {
+  @apply font-sans;
   background-color: var(--color-background);
   color: var(--color-foreground);
-  font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -31,8 +44,12 @@ body {
 
 /* marquee */
 @keyframes scroll {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 .animate-scroll {
